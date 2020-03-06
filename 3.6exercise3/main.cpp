@@ -22,6 +22,7 @@ int main()
 	//»­Ïß
 	line(dispMat, pt1, pt2, CV_RGB(0, 0, 255), 2, 8, 0);
 
+
 	//»­¾ØÐÎ
 	cv::Rect rect;
 	rect.x = 100;
