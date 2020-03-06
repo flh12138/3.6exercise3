@@ -15,10 +15,14 @@ int main()
 	pt1.y = 0;
 	pt2.x = 10;
 	pt2.y = 10;
+
+	//»­Ô²
 	circle(dispMat, pt, 5, CV_RGB(255, 0, 0), 2, 8, 0);
 
+	//»­Ïß
 	line(dispMat, pt1, pt2, CV_RGB(0, 0, 255), 2, 8, 0);
 
+	//»­¾ØÐÎ
 	cv::Rect rect;
 	rect.x = 10;
 	rect.y = 10;
