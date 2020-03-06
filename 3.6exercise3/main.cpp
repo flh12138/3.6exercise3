@@ -24,10 +24,10 @@ int main()
 
 	//»­¾ØÐÎ
 	cv::Rect rect;
-	rect.x = 10;
-	rect.y = 10;
-	rect.width;
-	rect.height;
+	rect.x = 100;
+	rect.y = 100;
+	rect.width=10;
+	rect.height=10;
 	rectangle(dispMat, rect, CV_RGB(0,255, 0), 3, 8, 0);
 	namedWindow("disp", 0);
 	imshow("disp", dispMat);
